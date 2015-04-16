@@ -1,0 +1,15 @@
+citEntry(entry="article",
+         title = "Detecting differential usage of exons from RNA-seq data.",
+         author = personList( as.person("Simon Anders"),
+		                      as.person("Alejandro Reyes"),
+                              as.person("Wolfgang Huber")),
+         year = 2012,
+         journal = "Genome Research",
+         volume = 22,
+         pages = {2008--2017},
+         doi = "10.1101/gr.133744.111",
+         textVersion = 
+         paste("Simon Anders, Alejandro Reyes and Wolfgang Huber (2012):", 
+               "Detecting differential usage of exons from RNA-seq data.",
+               "Genome Research (2012) 22:2008. doi:10.1101/gr.133744.111" ) )
+
