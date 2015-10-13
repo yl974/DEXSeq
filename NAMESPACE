@@ -1,0 +1,53 @@
+import(
+  Biobase,
+  BiocGenerics, 
+  hwriter, 
+  methods, 
+  stringr, 
+  statmod, 
+  biomaRt, 
+  GenomicRanges,
+  IRanges, 
+  Rsamtools,
+  DESeq2,
+  BiocParallel,
+  geneplotter,
+  genefilter,
+  RColorBrewer
+)
+
+exportClasses( 
+  "DEXSeqDataSet",
+  "DEXSeqResults"
+)
+
+exportMethods(
+  estimateDispersions,
+  plotMA,
+  counts,
+  estimateSizeFactors,
+  subsetByOverlaps,
+  findOverlaps
+)
+
+export(
+  geneIDs, "geneIDs<-",
+  groupIDs, "groupIDs<-",
+  exonIDs, "exonIDs<-",
+  featureIDs, "featureIDs<-",
+  DEXSeqHTML,
+  plotDEXSeq,
+  testForDEU,
+  featureCounts,
+  perGeneQValue,
+### NEW FUNCTIONS
+  DEXSeqDataSet,
+  DEXSeqDataSetFromSE,
+  DEXSeqDataSetFromHTSeq,
+  DEXSeqResults,
+  estimateExonFoldChanges,
+  DEXSeq,
+  sampleAnnotation
+)
+
+
