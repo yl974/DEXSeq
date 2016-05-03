@@ -1,0 +1,86 @@
+CHANGES IN VERSION 0.1.25
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+    o Changes to the documentation and to the vignette.  New functions added and more support for gene names and strange exonids.
+
+CHANGES IN version 0.1.11
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o Parallelization possibility added to the code, with its description in the vignette and single exon genes ignored properly.
+
+CHANGES IN VERSION 0.1.10
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o 'estimateSizeFactors' and 'estimatedispersions' function added as S4 methods, no more problems when loading DESeq and DEXSeq in the same R session
+
+CHANGES IN VERSION 1.3.2
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o More options and flexibilty added to "estimatelog2FoldChanges"
+
+CHANGES IN version 1.3.3
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o Now any function relies on the order of the levels of the factors.
+
+CHANGES IN VERSION 1.5.3
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o The TRT method is implemented, for people with a big number of samples without completions or speed issues
+
+CHANGES IN version 1.5.3
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o A parameter -r was added to the python scripts, that allow the users either to ignore the exonic bins belonging to several genes and treat the genes separately, or merge the genes into an aggregate gene. The equivalent R implementations of the python scripts were finally added.
+
+CHANGES IN version 1.7.14
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o Changes to vignette to provide more of an end-to-end description of the work flow.
+    o Changes to function names to now make two-row tables (TRT) rather than BM the default; changed vignette to reflect this.
+    o Added appendix explaining TRT to vignette.
+
+CHANGES IN VERSION 1.9.7
+-------------------------
+
+SIGNIFICANT USER-VISIBLE CHANGES
+
+
+    o Major code revisions: the ExonCountSet object was deprecated and substituted by the DEXSeqDataSet class,
+      a subclass of the DESeqDataSet.
+    o DEXseq now uses the DESeq2 package as internal engine and backbone for all analyses
+    o All functions and methods for the ExonCountSet object were replaced by new functions
+    o DEXSeq is now better integrated with other Bioconductor packages
+    o We now use knitr to build the vignette
+
+
+CHANGES IN VERSION 1.17.28
+-------------------------
+
+
+    o Added support for estimating fold change rates with continous variables.
+    o Reduced RAM usage when parallelizing
+
